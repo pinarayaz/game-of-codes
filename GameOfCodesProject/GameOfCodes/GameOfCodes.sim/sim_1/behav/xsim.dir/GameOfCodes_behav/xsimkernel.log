@@ -1,0 +1,7 @@
+Running: xsim.dir/GameOfCodes_behav/xsimk.exe -simmode gui -wdb GameOfCodes_behav.wdb -simrunnum 0 -socket 50697
+Design successfully loaded
+Design Loading Memory Usage: 21200 KB (Peak: 21200 KB)
+Design Loading CPU Usage: 155 ms
+Simulation completed
+Simulation Memory Usage: 21884 KB (Peak: 21884 KB)
+Simulation CPU Usage: 155 ms

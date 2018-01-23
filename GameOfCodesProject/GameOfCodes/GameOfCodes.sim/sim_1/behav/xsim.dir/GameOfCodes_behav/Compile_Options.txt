@@ -1,0 +1,1 @@
+-wto "b56c505882514725a1665bd1baa3906b" --debug "typical" --relax --mt "2" -L "xil_defaultlib" -L "unisims_ver" -L "unimacro_ver" -L "secureip" --snapshot "GameOfCodes_behav" "xil_defaultlib.GameOfCodes" "xil_defaultlib.glbl" -log "elaborate.log" 

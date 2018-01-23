@@ -1,0 +1,18 @@
+# compile verilog/system verilog design source files
+sv xil_defaultlib  "../../../../../Ready_Modules/stepmotor.sv"
+sv xil_defaultlib  "../../../../../Ready_Modules/steppermotor_wrapper.sv"
+sv xil_defaultlib  "../../../GameOfCodes.srcs/sources_1/new/ShiftOrder.sv"
+sv xil_defaultlib  "../../../../../Ready_Modules/SevSeg_4digit.sv"
+sv xil_defaultlib  "../../../GameOfCodes.srcs/sources_1/new/ScoreCounter.sv"
+sv xil_defaultlib  "../../../GameOfCodes.srcs/sources_1/new/MappingTableKeyRegister.sv"
+sv xil_defaultlib  "../../../../../Ready_Modules/keypad4X4.sv"
+sv xil_defaultlib  "../../../GameOfCodes.srcs/sources_1/new/KeyInputCodeComparator.sv"
+sv xil_defaultlib  "../../../GameOfCodes.srcs/sources_1/new/GameState.sv"
+sv xil_defaultlib  "../../../GameOfCodes.srcs/sources_1/new/RandomGenerator.sv"
+sv xil_defaultlib  "../../../GameOfCodes.srcs/sources_1/new/GameOfCodes.sv"
+
+# compile glbl module
+verilog xil_defaultlib "glbl.v"
+
+# Do not sort compile order
+nosort
